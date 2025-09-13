@@ -1272,7 +1272,7 @@ input, select, textarea {
 		}
 
 		header.major p {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 1em 0;
 			position: relative;
 			top: -1em;
 		}
@@ -1411,6 +1411,7 @@ input, select, textarea {
 		font-size: 0.95em;
 		letter-spacing: 0.075em;
 		padding: 1em 2em;
+		margin: 0em 0em 2em;
 		outline: 0;
 		border: 0;
 		white-space: nowrap;
@@ -1838,6 +1839,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
+			text-align: justify;
 			position: relative;
 			text-shadow: 1px 1px 0 #fff;
 			background-color: #fff;
@@ -1940,11 +1942,11 @@ input, select, textarea {
 		text-align: center;
 		margin-top: 2em;
 		padding: 3em 0 4em 0;
-		color: inherit;
+		color: #fff;
 	}
 
 		#copyright a {
-			color: inherit;
+			color: #acb2bf;
 		}
 
 /* Large */
