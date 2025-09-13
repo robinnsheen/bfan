@@ -1,76 +1,166 @@
----
-common-css:
-  - "/assets/css/bootstrap-social.css"
-  - "/assets/css/beautifuljekyll.css"
-  - "/assets/css/main.css"
-common-ext-css:
-  - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    sri: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-  - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-  - "https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
-  - "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
-common-ext-js:
-  - href: "https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    sri: "sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-  - href: "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    sri: "sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-  - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    sri: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-common-js:
-  - "/assets/js/beautifuljekyll.js"
----
+<!DOCTYPE HTML>
+<!--
+	ZeroFour by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ZeroFour by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+			<!-- Banner -->
+			<div id="banner">
+				<img src="/assets/img/brian-headshot.png"/>
+				<!-- <h2><strong>ZeroFour:</strong> A free responsive site template
+				<br />
+				built on HTML5 and CSS3 by <a href="http://html5up.net">HTML5 UP</a></h2>
+				<p>Does this statement make you want to click the big shiny button?</p>
+				<a href="#" class="button large icon solid fa-check-circle">Yes it does</a> -->
+			</div>
 
-<!DOCTYPE html>
-<html lang="{{ page.language | default: site.language | default: 'en' }}">
-<!-- Beautiful Jekyll 6.0.1 | Copyright Dean Attali 2023 -->
-{% include head.html %}
+			<!-- Main Wrapper -->
+				<div id="main-wrapper">
+					<div class="wrapper style1">
+						<div class="inner">
 
-<body>
-  {% include gtm_body.html %}
+							<!-- Feature 1 -->
+								<section class="container box feature1">
+									<div class="row">
+										<div class="col-12">
+											<header class="first major">
+												<h2>This is an important heading</h2>
+												<p>And this is where we talk about why we’re <strong>pretty awesome</strong> ...</p>
+											</header>
+										</div>
+										<div class="col-4 col-12-medium">
+											<section>
+												<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+												<header class="second icon solid fa-user">
+													<h3>Here's a Heading</h3>
+													<p>And a subtitle</p>
+												</header>
+											</section>
+										</div>
+										<div class="col-4 col-12-medium">
+											<section>
+												<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+												<header class="second icon solid fa-cog">
+													<h3>Also a Heading</h3>
+													<p>And another subtitle</p>
+												</header>
+											</section>
+										</div>
+										<div class="col-4 col-12-medium">
+											<section>
+												<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+												<header class="second icon solid fa-chart-bar">
+													<h3>Another Heading</h3>
+													<p>And yes, a subtitle</p>
+												</header>
+											</section>
+										</div>
+										<div class="col-12">
+											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper
+											bibendum ipsum, et tristique augue fringilla eu. Vivamus id risus vel dolor auctor euismod
+											quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus mattis lectus sit
+											amet pulvinar. Nam nec turpis.</p>
+										</div>
+									</div>
+								</section>
 
-  <div>
-    <image src="/assets/img/brian-headshot.png"></image>
-    <h2>Brian Fan</h2>
-    <h3>1Y Community and Inclusion Chair</h3>
-    <div id="description">My name is Brian, and I am honored to run for First-Year Community and Inclusion Chair.
-In my short time at SOM, I have been deeply moved by our community’s commitment to
-celebrating every member. Our genuine desire to support one another is SOM’s greatest
-strength, and it must remain the driving force behind how we choose to be inclusive.
-Yet, the aspiration of “inclusion” often risks becoming performative: the mere act of bringing
-diverse people into the same room is not a replacement for meaningful engagement.
-Community does not emerge from proximity. I believe our responsibility at SOM is to go beyond
-presence, to nurture sustained and authentic expression, to be intentional and consistent about
-how we can uplift the voice of every member. One of my goals is to spark opportunities that will
-further enable the exchange of ideas and perspectives that extend beyond the implicit
-transactions of formal networking.
-While we all find comfort in the circles we naturally gravitate toward, we have to persist in
-seeking out the remarkable variety of experiences within SOM. These first weeks gave us a
-great foundation; looking forward, we should strengthen the norms we’ve built and find new
-ways to bring others into our spheres. Fostering those unexpected connections and amplifying
-niche interests is one of my top priorities.
-Above all, I hope to remain reflective by assessing whether our community truly exudes the
-values we claim. As we build our shared identity at SOM, I want to ensure that we continue to
-fiercely and freely celebrate our distinct journeys. SOM must remain a place where diversity of
-people and ideas are not only welcomed but actively invited.
-I am adamant that a strong community enriches all of our experiences. For me, sustaining that
-strength while seeing my peers flourish is more than a worthwhile endeavor, and I hope you’ll
-join me in shaping a more inclusive, connected SOM.
+						</div>
+					</div>
+					<div class="wrapper style2">
+						<div class="inner">
 
-Prior to SOM, I developed policy on benefits administration for Trustees representing half a
-billion dollars in employee benefit funds. I engaged in outreach and retention programs for labor
-unions representing three hundred thousand workers in the building trades while standardizing
-workplace procedures and conducting compliance training for signatory employers. In addition, I
-served on an Amalgamated Transit Union task force to diversify recruitment for approximately
-two hundred thousand public transit workers in the San Francisco Bay Area and Los Angeles
-metropolitan area.
-Other anticipated commitments: Consulting recruiting; Hockey Club; Research Assistant;
-Admissions Guide; Honor Committee Rep; AAAPI 1Y Business and Development Chair
-</div>  
-</div>
+							<!-- Feature 2 -->
+								<section class="container box feature2">
+									<div class="row">
+										<div class="col-6 col-12-medium">
+											<section>
+												<header class="major">
+													<h2>And this is a subheading</h2>
+													<p>It’s important but clearly not *that* important</p>
+												</header>
+												<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+												Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+												Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+												consequat etiam.</p>
+											</section>
+										</div>
+										<div class="col-6 col-12-medium">
+											<section>
+												<header class="major">
+													<h2>This is also a subheading</h2>
+													<p>And is as unimportant as the other one</p>
+												</header>
+												<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+												Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+												Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+												consequat etiam.</p>
+											</section>
+										</div>
+									</div>
+								</section>
 
-  {% include footer.html %}
+							</div>
+					</div>
+				</div>
 
-</body>
+			<!-- Footer Wrapper -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<!-- <div class="col-3 col-6-medium col-12-small">
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+							</div> -->
+							<div class="col-6 col-12-medium imp-medium">
+
+								<!-- About -->
+									<section>
+										<h2><strong>ZeroFour</strong> by HTML5 UP</h2>
+										<p>Hi! This is <strong>ZeroFour</strong>, a free, fully responsive HTML5 site
+										template by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>.
+										It's <a href="http://html5up.net/license/">Creative Commons Attribution</a>
+										licensed so use it for any personal or commercial project (just credit us
+										for the design!).</p>
+									</section>
+
+								<!-- Contact -->
+									<section>
+										<h2>Get in touch</h2>
+										<div>
+											<div class="row">
+												<div class="col-6 col-12-small">
+													<dl class="contact">
+														<dt>Email</dt>
+														<dd><a href="#">user@untitled.tld</a></dd>
+													</dl>
+												</div>
+												<div class="col-6 col-12-small">
+												</div>
+											</div>
+										</div>
+									</section>
+
+							</div>
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; Brian Fan. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+		</div>
+	</body>
 </html>
-
-
