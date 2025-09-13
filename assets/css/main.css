@@ -103,10 +103,10 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		font-family: 'Open Sans', sans-serif;
-		color: #7b818c;
+		color: #242424;
 		font-weight: 400;
-		font-size: 11pt;
-		line-height: 1.85em;
+		font-size: 13pt;
+		line-height: 2em;
 	}
 
 	a {
@@ -1379,52 +1379,9 @@ input, select, textarea {
 	.image {
 		position: relative;
 		display: inline-block;
+		max-width: 100%;
+		height: auto;
 	}
-
-		.image img {
-			display: block;
-			width: 100%;
-			border-radius: 8px;
-		}
-
-		.image:before {
-			content: '';
-			display: block;
-			position: absolute;
-			left: 0;
-			top: 0;
-			background: url("images/bg01.png");
-			width: 100%;
-			height: 100%;
-			opacity: 0.75;
-		}
-
-		.image.fit {
-			display: block;
-			width: 100%;
-		}
-
-		.image.featured {
-			display: block;
-			width: 100%;
-			margin: 0 0 2.5em 0;
-		}
-
-		.image.left {
-			float: left;
-			margin: 0 2em 2em 0;
-		}
-
-		.image.centered {
-			display: block;
-			margin: 0 0 2.5em 0;
-		}
-
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
-			}
-
 /* Button */
 
 	input[type="button"],
@@ -1787,7 +1744,7 @@ input, select, textarea {
 		width: 940px;
 		margin: 0 auto;
 		overflow: hidden;
-		padding: 9em 0 6em 0;
+		padding: 0em 0 0em 0;
 	}
 
 		#banner h2 {
@@ -1872,7 +1829,7 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		padding: 7em 0 7em 0;
+		padding: 3em 0 3em 0;
 	}
 
 		.wrapper > .inner {
@@ -2328,12 +2285,6 @@ input, select, textarea {
 				margin-bottom: 3em;
 			}
 
-		/* Image */
-
-			.image.left {
-				width: 25%;
-			}
-
 		/* Button */
 
 			.button {
@@ -2365,7 +2316,7 @@ input, select, textarea {
 
 		/* Box */
 
-			.box.excerpt .image-left {
+			.box.excerpt {
 				margin-right: 0;
 			}
 
